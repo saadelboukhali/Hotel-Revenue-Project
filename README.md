@@ -7,11 +7,11 @@ Welcome to the Hotel Data Analyst Portfolio Project. In this project, we'll deve
 Our goal is to analyze and visualize hotel booking data. Here are the requirements from our stakeholders:
 - Build a visual data story or dashboard using Power BI.
 - Answer key business questions:
-  - Is our hotel revenue growing by year?
+  - Is our hotel revenue growing by year? :
     We have two hotel types, so it would be good to segment revenue by hotel type.
-  - Should we increase our parking lot size?
+  - Should we increase our parking lot size? :
     We want to understand if there is a trend in guests with personal cars.
-  - What trends can we see in the data?
+  - What trends can we see in the data? :
     We must focus on the average daily rate and guests to explore seasonality.
 
 ## Project Pipeline
