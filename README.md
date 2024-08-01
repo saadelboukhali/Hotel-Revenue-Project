@@ -1,7 +1,7 @@
 # Hotel Data Analyst Portfolio Project
 
 ## Introduction
-Welcome to the Hotel Data Analyst Portfolio Project. In this project, we'll develop a data analyst portfolio using hotel data sourced from a database created by uploading Excel sheets. We will connect this database to Power BI to answer business questions and create a visual product.
+Welcome to the Hotel Data Analyst Portfolio Project. In this project, we'll develop a data analytics project using hotel data sourced from a database created by uploading Excel sheets. We will connect this database to Power BI to answer business questions and create a visual product.
 
 ## Project Requirements
 Our goal is to analyze and visualize hotel booking data. Here are the requirements from our stakeholders:
