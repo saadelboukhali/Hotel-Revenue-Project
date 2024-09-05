@@ -31,8 +31,16 @@ We will create a database by following these steps:
 
 8. Select a destination and verify the server and database name.
 9. Select tables that you want to import.
+    
+![Image Description](Assets/Images/pic2.png)
+
 10. Now, when you run it, you will see that all the data is imported into the environment.
+
+![Image Description](Assets/Images/pic3.png)
+
 11. You can then view the data in the `Project` database by expanding the Tables node in the Databases pane.
+
+![Image Description](Assets/Images/pic4.png)
 
 ## 2. Querying Data
 
@@ -61,8 +69,8 @@ SELECT * FROM dbo.['2020$'];
 Now, we will apply EDA on the data and try to answer the following questions:
 
 Is our hotel revenue growing yearly?
-Should we increase our parking lot size?
-What trends can we observe in the data?
+What hotel type generates the highest revenue?
+What is the number of adults and childrens by hotel type?
 First, we create a single temporary table hotels that combines all the data:
 
 WITH hotels AS (
