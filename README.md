@@ -22,6 +22,8 @@ We will create a database by following these steps:
 7. In the Import Data dialog box, select the data source that you want to import from.
    - Browse data file or enter the path.
    - Choose the Excel version you want to use and click Next.
+  
+     
 ![Image Description](Assets/Images/pic1.png)
 
 
