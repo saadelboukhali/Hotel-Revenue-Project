@@ -99,16 +99,12 @@ FROM hotels
 GROUP BY arrival_date_year, hotel;
 
 
-Q2: Should we increase our parking lot size?
-To answer this, we analyze the car_parking_spaces and the number of guests using the following query:
+Q2: Revenue by hotel type
 
-SELECT
-  arrival_date_year, 
-  hotel,
-  SUM((stays_in_week_nights + stays_in_weekend_nights) * adr) AS revenue,
-  CONCAT(ROUND((SUM(required_car_parking_spaces) / SUM(stays_in_week_nights + stays_in_weekend_nights)) * 100, 2), '%') AS parking_percentage 
-FROM hotels 
-GROUP BY arrival_date_year, hotel;
+
+
+Q3: The number of adults and children by hotel
+
 
 
 4. Create Data Visualizations Using Power BI
@@ -152,7 +148,7 @@ LEFT JOIN dbo.meal_cost$ ON meal_cost$.meal = hotels.meal;
 
 
 Hit the Load button to load the data.
-Q3: What trends can we observe in the data?
+Q4: What trends can we observe in the data?
 We created some visuals using Power BI. A few trends include:
 
 Revenue increased from 2018 to 2019 but decreased in 2020.
